@@ -69,9 +69,9 @@
 														$i++;
 
 														if ($i % 2 == 0){
-															$gage="even";
-														}else {
 															$gage="odd";
+														}else {
+															$gage="even";
 														}
 
 														?>
