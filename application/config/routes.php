@@ -1,6 +1,24 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+
+// $route['default_controller'] = 'siswa';
+$route['blog'] = 'frontweb/BlogController';
+$route['tree'] = 'backweb/TampilTree';
+$route['tree2'] = 'BikinArray/weblesson';
+$route['tree3/(:any)'] = 'BikinArray/weblesson2/$1';
+$route['tree4/(:any)'] = 'BikinArray/encode_datanya/$1';
+$route['tree4'] = 'BikinArray/encode_datanya1';
+
+$route['mhs'] = 'AdminController';
+
+
+$route['default_controller'] = 'AdminController';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = FALSE;
+
+
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
@@ -49,16 +67,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-
-
-$route['default_controller'] = 'siswa';
-$route['blog'] = 'frontweb/BlogController';
-$route['tree'] = 'backweb/TampilTree';
-$route['tree2'] = 'BikinArray/weblesson';
-$route['tree3/(:any)'] = 'BikinArray/weblesson2/$1';
-$route['tree4/(:any)'] = 'BikinArray/encode_datanya/$1';
-$route['tree4'] = 'BikinArray/encode_datanya1';
-
-$route['default_controller'] = 'welcome';
-$route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
