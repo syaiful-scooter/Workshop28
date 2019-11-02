@@ -1,5 +1,6 @@
 # Workshop28
-Adalah sebuah framework php dari Codeigniter yang dibuat menjadi sebuah fake project / untuk belajar pribadi
+Adalah sebuah framework php dari Codeigniter yang dibuat menjadi sebuah fake project / untuk belajar pribadi, nama Workshop28 di ambil dari kegiatan workshop tentang codeigniter yang saya ikuti pada tanggal 28 september 2019, berlokasi di kampus trilogi kalibata jakarta selatan.
+mentor : hifdzon ( founder of http://cyber-learning.id/ )
 versi Codeiniternya : 3.1.10
 
 # Bagian yang sudah berhasil
