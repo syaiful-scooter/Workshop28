@@ -1,5 +1,5 @@
 # Workshop28
-Adalah sebuah framework php dari Codeigniter yang dibuat menjadi sebuah fake project / untuk belajar pribadi, nama Workshop28 di ambil dari kegiatan workshop tentang codeigniter yang saya ikuti pada tanggal 28 september 2019, berlokasi di kampus trilogi kalibata jakarta selatan.
+Adalah sebuah framework php dari Codeigniter yang dibuat menjadi sebuah fake project / untuk belajar pribadi, nama Workshop28 di ambil dari kegiatan workshop tentang codeigniter yang saya ikuti pada tanggal 28 september 2019, berlokasi di kampus trilogi kalibata jakarta selatan.<br>
 mentor : hifdzon ( founder of http://cyber-learning.id/ )
 versi Codeiniternya : 3.1.10
 
@@ -7,10 +7,13 @@ versi Codeiniternya : 3.1.10
 - [Membuat tree menu dinamis (sumber dari Weblessons merupakan php native)](#dynamicTreeMenu)
 - [Membuat kerangka template bootstrap (Ace Admin)](#menggunakanAceAdmin)
 - [Membuat data dummy untuk project (menggunakan faker)](#Membuat_data_dummy_untuk_project)
+- [Membuat Halaman profile untuk CV (bootstrap Ace Admin)](#profil_ku)
 
+## profil_ku
 
-##Membuat_data_dummy_untuk_project
-```sh
+## Membuat_data_dummy_untuk_project
+
+```php
 Controller yang akan dipanggil :
 $route['inputmhs'] = 'DummyController/inputDummyMHS';
 ```
@@ -42,7 +45,7 @@ $route['inputmhs'] = 'DummyController/inputDummyMHS';
   }
 
 ```
-data base faker adalah library untuk membuat data dummy, contoh Controller di atas (DummyController) mengisi data mahasiswa ke dalam tabel dengan perulangan sebanyak 100 kali.
+data base faker adalah library untuk membuat data dummy, contoh Controller di atas (DummyController) mengisi data mahasiswa ke dalam tabel dengan perulangan sebanyak 100 kali. uji coba pertama menggunakan 1500 kali perulangan, namun input faker 1500 baris, kena limit 30 detik maksimum eksekusi kode program dari php. untuk membukanya bisa saja namun tidaK dilakukan demi alasan keamanan, seperti yang tertera dalam tutorial dari cari-cari di google.
 
 ## menggunakanAceAdmin
 
