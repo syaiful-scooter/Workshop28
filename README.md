@@ -6,7 +6,15 @@ versi Codeiniternya : 3.1.10
 # Bagian yang sudah berhasil
 - [Membuat tree menu dinamis (sumber dari Weblessons merupakan php native)](#dynamicTreeMenu)
 - [Membuat kerangka template bootstrap (Ace Admin)](#menggunakanAceAdmin)
+- [Membuat data dummy untuk project (menggunakan faker)](##Membuat data dummy untuk project)
 
+
+##Membuat data dummy untuk project
+```sh
+running untuk mengisi data
+
+```
+data base faker adalah library untuk membuat data dummy
 
 ## menggunakanAceAdmin
 
