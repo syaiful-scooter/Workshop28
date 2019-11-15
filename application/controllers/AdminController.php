@@ -26,6 +26,21 @@ class AdminController extends CI_Controller
     $this->load->view($this->layout,$list);
   }
 
+  public function UjiFaker()
+  { include APPPATH.'/third_party/faker/autoload.php';
+    $faker = Faker\Factory::create("id_ID");
+    // code...looping untuk simpan sejumlah data
+    // $pureName = $faker->firstName ." ". $faker->lastName;
+    for ($i=0; $i < 1000; $i++)
+    { $a=$i+1;
+      echo "$a. ";
+      echo $faker->firstNameMale ." ". $faker->lastNameMale ." --> ". $faker->streetAddress;
+      echo "<br>";
+    }
+
+  }
+
+
 }
 
  ?>
