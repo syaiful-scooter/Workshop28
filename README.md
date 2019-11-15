@@ -6,10 +6,10 @@ versi Codeiniternya : 3.1.10
 # Bagian yang sudah berhasil
 - [Membuat tree menu dinamis (sumber dari Weblessons merupakan php native)](#dynamicTreeMenu)
 - [Membuat kerangka template bootstrap (Ace Admin)](#menggunakanAceAdmin)
-- [Membuat data dummy untuk project (menggunakan faker)](#Membuat data dummy untuk project)
+- [Membuat data dummy untuk project (menggunakan faker)](#Membuat_data_dummy_untuk_project)
 
 
-##Membuat data dummy untuk project
+##Membuat_data_dummy_untuk_project
 ```sh
 Controller yang akan dipanggil :
 $route['inputmhs'] = 'DummyController/inputDummyMHS';
