@@ -11,6 +11,12 @@ versi Codeiniternya : 3.1.10
 
 ##Membuat data dummy untuk project
 ```sh
+Controller yang akan dipanggil :
+$route['inputmhs'] = 'DummyController/inputDummyMHS';
+```
+<hr />
+
+```sh
 //running DummyController.php untuk mengisi data
   public function inputDummyMHS()
   {
