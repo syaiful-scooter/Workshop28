@@ -11,10 +11,32 @@ versi Codeiniternya : 3.1.10
 
 ##Membuat data dummy untuk project
 ```sh
-running untuk mengisi data
+//running DummyController.php untuk mengisi data
+  public function inputDummyMHS()
+  {
+    include APPPATH.'/third_party/faker/autoload.php';
+    $faker = Faker\Factory::create("id_ID");
+    // code...
+    for ($i=0; $i < 100; $i++) {
+    // code...
+      $nama = $faker->firstNameMale ." ". $faker->lastNameMale;
+      $alamat = $faker->streetAddress;
+      $jurusan = $faker->randomElement($array = array ('TI','TK','SI','MI'));
+      $usia = $faker->numberBetween($min = 19, $max = 30);
+
+      $data  = array(
+        "nama" => $nama,
+        "alamat" => $alamat,
+        "jurusan" => $jurusan,
+        "usia" => (int)$usia
+      );
+
+    $save = $this->m->simpanData($this->table, $data);
+  }
+  }
 
 ```
-data base faker adalah library untuk membuat data dummy
+data base faker adalah library untuk membuat data dummy, contoh Controller di atas (DummyController) mengisi data mahasiswa ke dalam tabel dengan perulangan sebanyak 100 kali.
 
 ## menggunakanAceAdmin
 
