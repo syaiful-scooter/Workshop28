@@ -12,9 +12,10 @@ $route['tree4/(:any)'] = 'BikinArray/encode_datanya/$1';
 $route['tree4'] = 'BikinArray/encode_datanya1';
 
 $route['mhs'] = 'AdminController';
+$route['inputmhs'] = 'DummyController/inputDummyMHS';
 
 
-$route['default_controller'] = 'AdminController';
+$route['default_controller'] = 'AdminController/UjiFaker';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
